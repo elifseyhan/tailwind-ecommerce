@@ -18,6 +18,8 @@ module.exports = {
       }
     },
     colors: {
+      'transparent': 'transparent',
+      'white': 'white',
       'primary': '#FD3D57'
     },
   },
