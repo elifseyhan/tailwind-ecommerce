@@ -1,7 +1,12 @@
 module.exports = {
   content: ["./dist/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        poppins: 'Poppins, sans-serif',
+        roboto: 'Roboto, sans-serif'
+      }
+    },
   },
   plugins: [],
 }
