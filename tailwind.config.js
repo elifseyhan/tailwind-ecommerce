@@ -15,10 +15,11 @@ module.exports = {
       fontFamily:{
         poppins: 'Poppins, sans-serif',
         roboto: 'Roboto, sans-serif'
-      }
-    },
-    colors: {
-      'primary': '#FD3D57'
+      },
+      colors: {
+        'primary': '#FD3D57',
+        'primary-100': '#f4cad0'
+      },
     },
   },
   plugins: [],
