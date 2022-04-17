@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css" integrity="sha512-vebUliqxrVkBy3gucMhClmyQP9On/HAWQdKDXRaAlb/FKuTbxkjPKUyqVOxAcGwFDka79eTF+YXwfke1h3/wfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <!-- Header -->
@@ -60,11 +61,35 @@
     <nav class="bg-gray-800">
         <div class="container flex">
             <!-- All Categories -->
-            <div class="px-8 py-4 bg-primary flex items-center cursor-pointer">
+            <div class="px-8 py-4 bg-primary flex items-center cursor-pointer relative group">
                 <span class="text-white">
                     <i class="fas fa-bars"></i>
                 </span>
                 <span class="capitalize ml-2 text-white">All categories</span>
+                <!-- Dropdown -->
+                <div class="absolute w-full left-0 top-full bg-white shadow-md py-3 divide-y divide-gray-300 divide-dashed opacity-0 group-hover:opacity-100 transition duration-300 invisible group-hover:visible">
+                    <a href="#" class="flex items-center px-6 py-3 hover:bg-gray-100 transition">
+                        <i class="las la-bed text-2xl text-primary-100"></i>
+                        <span class="ml-6 text-gray-600">Bedroom</span>
+                    </a>
+                    <a href="#" class="flex items-center px-6 py-3 hover:bg-gray-100 transition">
+                        <i class="las la-couch text-2xl text-primary-100"></i>
+                        <span class="ml-6 text-gray-600">Sofa</span>
+                    </a>
+                    <a href="#" class="flex items-center px-6 py-3 hover:bg-gray-100 transition">
+                        <i class="las la-coffee text-2xl text-primary-100"></i>
+                        <span class="ml-6 text-gray-600">Office</span>
+                    </a>
+                    <a href="#" class="flex items-center px-6 py-3 hover:bg-gray-100 transition">
+                        <i class="las la-umbrella-beach text-2xl text-primary-100"></i>
+                        <span class="ml-6 text-gray-600">Outdoor</span>
+                    </a>
+                    <a href="#" class="flex items-center px-6 py-3 hover:bg-gray-100 transition">
+                        <i class="las la-bed text-2xl text-primary-100"></i>
+                        <span class="ml-6 text-gray-600">Mattress</span>
+                    </a>
+                </div>
+                <!-- Dropdown::END -->
             </div>
             <!-- All Categories::END -->
             <!-- Navbar Links -->
